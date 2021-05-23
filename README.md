@@ -1,24 +1,12 @@
 # README
+Here is an example output from a GET Request to `/tournaments`:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  [{"id":1,"name":"Masters","pros":
+  [{"id":1,"name":"Tiger Woods"},
+  {"id":2,"name":"Phil Mickelson"}]},
+  {"id":2,"name":"Ryder Cup","pros":
+  [{"id":3,"name":"Phil Mickelson"},
+  {"id":4,"name":"Tony Finau"}]},
+  {"id":3,"name":"Honda Classic","pros":[]},
+  {"id":4,"name":"Safeway Open","pros":[]}]
